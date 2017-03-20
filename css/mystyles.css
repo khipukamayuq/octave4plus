@@ -1,4 +1,4 @@
-/**** my CSS goes here***/
+/**** my CSS goes here ***/
 
 .jumbotron {
   background-image: url("imgs/garry_with_bass_close.jpg");
@@ -8,4 +8,5 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 60px;
 }
