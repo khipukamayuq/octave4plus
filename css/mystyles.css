@@ -1,7 +1,9 @@
 /**** my CSS goes here ***/
 
-.jumbotron {
-  background-image: url("imgs/garry_with_bass_close.jpg");
+/*.jumbotron {
+  background-image: url("../imgs/garry_with_bass_close.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 /*footer {
@@ -13,4 +15,8 @@
 
 body {
   padding-top: 50px;
+}
+
+#garry-jumbo {
+  width: 75%;
 }
