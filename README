@@ -1,2 +1,27 @@
-Just beginning to work on this FEWD final project. Subject is reworking exist-
-ing website for a custom string manufacturer.
+This is my final project submission for Code: Louisville FEWD Jan 2017 session.
+If you're in a hurry simply run index.html to view.
+
+The intent here is to build a new website for an existing business named Octave4Plus,
+a custom string manufacturer for numerous stringed instruments. Their current site 
+is quite old and contains many problems beyond the scope of this course (such as
+marketing, branding, etc) which can be seen at 
+http://www.garrygoodman.com/octave4plus.com.htm. Poking around here users will see
+a lot of repetition from page to page as well as conflicting information about
+products and services available. In an effort to reduce these redundancies and better
+represent what the company does, my project includes the gist of the company's
+offerings on index.html. There is a simple about page explaining how they are 
+different and a bit about their history. strings.html can jump to specific interests
+by instrument, technical specifications required for ordering, or prototyping needs.
+A straight forward contact page with input forms is available. Order page loads a
+modal window warning of the need for detailed spec info on user's instruments and
+desired configuration of string(s).
+
+My site is built using Bootstrap. Navbar toggles to button at small sizes and below.
+Navbar also contains a dropdown to specify path for string info. order.html loads 
+modal window with jquery document.ready() call in the head. 
+
+Obviously not ready for launch, will be updating this further at least until the end
+of course on March 31, 2017.
+
+Thanks for reading! This is my very first project of my own doing. Constructive 
+criticisms and pointers are welcome.
