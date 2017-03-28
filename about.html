@@ -43,7 +43,7 @@
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Strings <span class="caret"></span></a>
+              <a href="strings.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Strings <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="strings.html#guitar">Guitar</a></li>
                 <li><a href="strings.html#bass">Bass</a></li>
@@ -67,21 +67,23 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4 col-sm-push-1">
-          <h1>A title</h1>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-sm-10 col-sm-push-1">
-          <img class="img-responsive hidden-xs img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/machine.jpg" alt="String-making machinery">
+          <img id="machine" class="img-responsive hidden-xs img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/machine.jpg" alt="String-making machinery">
         </div>
       </div><!-- /.row -->
       <div class="row">
         <div class="col-xs-10 col-xs-push-1">
           <h2>What we do</h2>
-          <p>If you are looking for prepackaged string sets then you may want to look elsewhere. We are a custom shop and manufacture strings based on the information you provide to us when you place an order. We give each customer's order our full attention and when we receive many orders,  it may take some time to complete your strings. This is because we process each customer's project in the order in which it is received. This turnaround time can take anywhere up to 8 weeks, depending on many factors. Most of our customers are professional musicians, luthiers, or musicians developing experimental instruments.</p>
-          <h2>Our origins</h2>
-          <p>When bassist Garry Goodman conceived of a single course 12-string matching the range of a grand piano, he had to develop a string that could tune to Ab4 at the 32" scale. One of the by-products resulting from Garry's research and development of the Ab4 string for the 32" scale is the A440 string for the 26" - 30" scale. He discovered other tunings for other instruments were now possible.</p>
+          <p id="aboutInfo">If you are looking for prepackaged string sets then you may want to look elsewhere. We are a custom shop and manufacture strings based on the information you provide to us when you place an order. We give each customer's order our full attention and when we receive many orders,  it may take some time to complete your strings. This is because we process each customer's project in the order in which it is received. This turnaround time can take anywhere up to 8 weeks, depending on many factors. Most of our customers are professional musicians, luthiers, or musicians developing experimental instruments.</p>
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-sm-3 col-sm-push-1">
+          <img class="img-responsive hidden-xs hidden-lg img-rounded" src="./imgs/garry_bass_standing.jpg" alt="Garry Goodman with custom-made single course 12 string bass">
+        </div>
+        <div class="col-xs-10 col-xs-push-1 col-sm-5 col-sm-push-1 col-lg-10 col-lg-push-1">
+          <h2 class="bio">Our origins</h2>
+          <p id="last">When bassist Garry Goodman conceived of a single course 12-string matching the range of a grand piano, he had to develop a string that could tune to Ab4 at the 32" scale. One of the by-products resulting from Garry's research and development of the Ab4 string for the 32" scale is the A440 string for the 26" - 30" scale. He discovered other tunings for other instruments were now possible.</p>
         </div>
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -90,11 +92,11 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer id="nonsticky" class="footer">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <span>Something here.</span>
+            <span>All rights reserved. </span>
             <span class="copyright">&copy; 2017 Octave4Plus</span>
           </div>
           </div>
