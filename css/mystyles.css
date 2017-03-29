@@ -1,8 +1,23 @@
 /* General Styles
 *******************************/
 
+#brand {
+  color: gold;
+  font-family: 'Audiowide', cursive;
+}
+
 body, #guitar, #bass, #other, #technical, #custDev {
   padding-top: 50px;
+}
+
+h1, h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 150%;
+  font-size: 14pt;
 }
 
 #last, #aboutInfo {
@@ -44,12 +59,13 @@ body, #guitar, #bass, #other, #technical, #custDev {
   margin: 0 auto;
 }
 
-/*.center-block {
-  max-height: 50px;
-}
-
 /*
 *******************************/
 
-/* Media Queries
+/* Jumbotron
 *******************************/
+
+.jumbotron {
+  background-color: palegoldenrod;
+  font-family: 'Josefin Sans', sans-serif;
+}

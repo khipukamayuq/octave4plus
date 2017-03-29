@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/mystyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Josefin+Sans" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Octave4Plus</a>
+          <a id="brand" class="navbar-brand" href="index.html">Octave4Plus</a>
         </div><!--/.navbar-header -->
 
         <!-- Collect nav link for toggling  -->
@@ -76,7 +77,7 @@
           <div class="col-sm-8">
             <h1>A True Custom String</h1>
             <p>Octave4Plus is designed for professional level musicians and luthiers who know exactly what it is they need. Everything we make is to your specifications.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            <p><a class="btn btn-success btn-lg" href="#" role="button">Learn more &raquo;</a></p>
           </div>
         </div><!-- /row -->
       </div><!-- /container-fluid -->
@@ -87,48 +88,38 @@
     <!-- Subheadings/Secondary Marketing focus -->
 
     <div class="container-fluid">
-      <!-- One row of three columns -->
-      <div class="row ft">
+      <!-- Two rows of three columns -->
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <img class="img-responsive hidden-xs hidden-sm img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/neck_close.jpg" alt="Close-up of guitar neck and strings">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img class="img-responsive hidden-xs hidden-sm img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/slide_guitar.jpg" alt="pedal-steel guitar">
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <img class="img-responsive hidden-xs hidden-sm img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/single_string_close.jpg" alt="wound string close-up">
+        </div>
+
+      </div>
+      <div id="last" class="row ft">
+
         <div class="col-sm-6 col-md-4">
           <h2>Extend your range</h2>
           <p>We are the first to offer octave zero strings for the 28.625"-30" scale with bass and guitar ball ends. B0, the same low B on a 5-string bass is available for guitars like the Agile Intrepid Pro, Halo 10-string and Oakland Axe Factory ERGs. We can even make standard bass guitar E1 for 25.5" scale guitar.</p>
-
-          <div class="row">
-            <div class="col-sm-5">
-              <img class="img-responsive hidden-xs img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/neck_close.jpg" alt="Close-up of guitar neck and strings">
-            </div>
-            <div class="col-sm-4">
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-          </div>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-sm-6 col-md-4 -->
 
         <div class="col-sm-6 col-md-4">
           <h2>Tune up to A440 Hz</h2>
           <p>If you have tried to tune up to A4, then you know the all too familiar "snap" before you reach A440 Hz. Some believe that a thinner gauge string will automatically tune to a higher pitch. This is not the case. Octave4Plus strings are pitch specific for each scale length.</p>
-          <div class="row">
-            <div class="col-sm-5">
-              <img class="img-responsive hidden-xs img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/slide_guitar.jpg" alt="pedal-steel guitar">
-            </div>
-            <div class="col-sm-4">
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-          </div>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-sm-6 col-md-4 -->
 
         <div class="col-sm-8 col-sm-push-2 col-md-4 col-md-push-0">
           <h2>Custom look and feel</h2>
           <p>We can make wound strings in several degrees of tension. Just tell us how flexible you'd like yours! Additionally, all strings can be made with tapered core, exposed core, skeleton core, or any combination of the above. Thread wraps available in your choice color.</p>
-          <div class="row">
-            <div class="col-sm-5">
-              <img class="img-responsive hidden-xs img-rounded" style="padding-left: 0px;  padding-right: 0px;" src="./imgs/single_string_close.jpg" alt="wound string close-up">
-            </div>
-            <div class="col-sm-4">
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div>
-          </div>
-
-        </div><!-- /.col-sm-4 -->
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-sm-8 col-sm-push-2 col-md-4 col-md-push-0 -->
       </div><!-- /.row -->
     </div> <!-- /.container-fluid -->
 
