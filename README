@@ -10,18 +10,17 @@ a lot of repetition from page to page as well as conflicting information about
 products and services available. In an effort to reduce these redundancies and better
 represent what the company does, my project includes the gist of the company's
 offerings on index.html. There is a simple about page explaining how they are 
-different and a bit about their history. strings.html can jump to specific interests
-by instrument, technical specifications required for ordering, or prototyping needs.
-A straight forward contact page with input forms is available. Order page loads a
-modal window warning of the need for detailed spec info on user's instruments and
-desired configuration of string(s).
+different and a bit about their history. Both of the above have two break points.
+strings.html can jump to specific interests by instrument by using links from index.html
+content, anchor buttons at the top of strings.html or via the dropdown menu in the nav.
+A straight forward contact page with input forms is available and some imperfect form
+validation. Order page loads a modal window via JQuery warning of the need for 
+detailed spec info on user's instruments and desired configuration of string(s). The form
+beyond the modal has some better validation including regular expression checking
+format of user input on the 'Scale Length' field.
 
-My site is built using Bootstrap. Navbar toggles to button at small sizes and below.
-Navbar also contains a dropdown to specify path for string info. order.html loads 
-modal window with jquery document.ready() call in the head. 
-
-Obviously not ready for launch, will be updating this further at least until the end
-of course on March 31, 2017.
+My site is built using Bootstrap. Custom styles added including fonts from google,
+and social media icons from fontawesome. Stock images gathered for free from pexel.com
 
 Thanks for reading! This is my very first project of my own doing. Constructive 
 criticisms and pointers are welcome.
