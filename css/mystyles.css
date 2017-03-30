@@ -50,6 +50,10 @@ p {
   margin-top: 0px;
 }
 
+footer ul li a {
+  color: grey;
+}
+
 /* Images
 *******************************/
 
