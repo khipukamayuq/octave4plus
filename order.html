@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/mystyles.css">
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Ek+Mukta|Josefin+Sans" rel="stylesheet">
-    <script src="https://use.fontawesome.com/fad6b0e856.js"></script>
+    <script src="https://use.fontawesome.com/fad6b0e856.js"></script><!-- social media icons -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -103,36 +103,37 @@
       </div>
       <div class="row">
         <div class="col-xs-8 col-xs-push-2">
-          <form class="form-horizontal">
+          <form class="form-horizontal" data-toggle="validator" role="form">
             <div class="form-group"><label>My instrument is:</label>
               <div class="radio">
                 <label class="radio-inline">
-                  <input type="radio" name="guitarRadio" id="guitarRadio" value="guitar">
+                  <input type="radio" name="instrument" required>
                   Guitar
                 </label>
                 <label class="radio-inline">
-                  <input type="radio" name="bassRadio" id="bassRadio" value="bass">
+                  <input type="radio" name="instrument" required>
                   Bass
                 </label>
 
                 <label class="radio-inline">
-                  <input type="radio" name="otherRadio" id="otherRadio" value="other">
+                  <input type="radio" name="instrument" required>
                   Other
                 </label>
               </div>
             </div>
             <div class="form-group">
               <label for="makeModel">Make and Model</label>
-              <input type="text" class="form-control" id="makeModel" placeholder="e.g. Agile Intrepid 827 or Ibanez Prestige 7">
+              <input type="text" class="form-control" id="makeModel" placeholder="e.g. Agile Intrepid 827 or Ibanez Prestige 7" required>
             </div>
 
             <div class="form-group">
               <label for="scaleLength">Scale Length</label>
-              <input type="text" class="form-control" id="scaleLength" placeholder="Scale length is measured in inches from the bridge to the nut">
+              <input type="text" class="form-control" id="scaleLength" placeholder="Scale length is measured in inches from the bridge to the nut" pattern="^\d*\.?\d*$" title="Please use decimal and digits 0-9" required>
             </div>
             <div class="form-group">
               <label for="selectBridge">Bridge Type</label>
-                <select class="form-control">
+                <select class="form-control" required>
+                  <option></option>
                   <option>Fixed, Top Loading</option>
                   <option>Fixed, Rear Loading</option>
                   <option>Fulcrum Tremolo</option>
