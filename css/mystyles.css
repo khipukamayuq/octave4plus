@@ -95,3 +95,21 @@ footer ul li a {
   background-color: palegoldenrod;
   font-family: 'Josefin Sans', sans-serif;
 }
+
+/* Media Query
+*******************************/
+
+@media (min-width: 1080px) {
+  #jumbotron, #secondary {
+    max-width: 1200px;
+    /*max-height: 800px;*/
+    margin: auto;
+  }
+}
+
+@media (min-height: 865px) {
+  .xlonly {
+      position: absolute;
+      bottom: 0;
+  }
+}
